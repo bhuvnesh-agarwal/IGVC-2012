@@ -1,0 +1,54 @@
+﻿Build started 12/12/2011 1:58:28 PM.
+     1>Project "F:\Users\Samuel\documents\visual studio 2010\Projects\SafeZoneNav\SafeZoneNav\SafeZoneNav.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\SafeZoneNav.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         F:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"F:\Program Files\OpenCV2.3\build\include" /I"F:\Program Files\OpenCV2.3\build\include\opencv" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\SafeZoneNav.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt SafeZoneNav.cpp
+         SafeZoneNav.cpp
+     1>f:\program files\opencv2.3\build\include\opencv2\flann\logger.h(70): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>f:\users\samuel\documents\visual studio 2010\projects\safezonenav\safezonenav\safezonenav.cpp(43): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>f:\users\samuel\documents\visual studio 2010\projects\safezonenav\safezonenav\safezonenav.cpp(247): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>f:\users\samuel\documents\visual studio 2010\projects\safezonenav\safezonenav\safezonenav.cpp(247): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>f:\users\samuel\documents\visual studio 2010\projects\safezonenav\safezonenav\safezonenav.cpp(247): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>f:\users\samuel\documents\visual studio 2010\projects\safezonenav\safezonenav\safezonenav.cpp(247): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>f:\users\samuel\documents\visual studio 2010\projects\safezonenav\safezonenav\safezonenav.cpp(281): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>f:\users\samuel\documents\visual studio 2010\projects\safezonenav\safezonenav\safezonenav.cpp(281): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>f:\users\samuel\documents\visual studio 2010\projects\safezonenav\safezonenav\safezonenav.cpp(281): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>f:\users\samuel\documents\visual studio 2010\projects\safezonenav\safezonenav\safezonenav.cpp(281): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>f:\users\samuel\documents\visual studio 2010\projects\safezonenav\safezonenav\safezonenav.cpp(288): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>f:\users\samuel\documents\visual studio 2010\projects\safezonenav\safezonenav\safezonenav.cpp(288): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>f:\users\samuel\documents\visual studio 2010\projects\safezonenav\safezonenav\safezonenav.cpp(288): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>f:\users\samuel\documents\visual studio 2010\projects\safezonenav\safezonenav\safezonenav.cpp(288): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>f:\users\samuel\documents\visual studio 2010\projects\safezonenav\safezonenav\safezonenav.cpp(292): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>f:\users\samuel\documents\visual studio 2010\projects\safezonenav\safezonenav\safezonenav.cpp(293): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>f:\users\samuel\documents\visual studio 2010\projects\safezonenav\safezonenav\safezonenav.cpp(300): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>f:\users\samuel\documents\visual studio 2010\projects\safezonenav\safezonenav\safezonenav.cpp(304): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>f:\users\samuel\documents\visual studio 2010\projects\safezonenav\safezonenav\safezonenav.cpp(311): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>f:\users\samuel\documents\visual studio 2010\projects\safezonenav\safezonenav\safezonenav.cpp(315): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>f:\users\samuel\documents\visual studio 2010\projects\safezonenav\safezonenav\safezonenav.cpp(322): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>f:\users\samuel\documents\visual studio 2010\projects\safezonenav\safezonenav\safezonenav.cpp(322): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>f:\users\samuel\documents\visual studio 2010\projects\safezonenav\safezonenav\safezonenav.cpp(326): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>f:\users\samuel\documents\visual studio 2010\projects\safezonenav\safezonenav\safezonenav.cpp(212): warning C4101: 'lengthSqd' : unreferenced local variable
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         F:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Users\Samuel\documents\visual studio 2010\Projects\SafeZoneNav\Debug\SafeZoneNav.exe" /INCREMENTAL /NOLOGO "F:\Program Files\OpenCV2.3\build\x86\vc10\lib\opencv_core230d.lib" "F:\Program Files\OpenCV2.3\build\x86\vc10\lib\opencv_highgui230d.lib" "F:\Program Files\OpenCV2.3\build\x86\vc10\lib\opencv_video230d.lib" "F:\Program Files\OpenCV2.3\build\x86\vc10\lib\opencv_ml230d.lib" "F:\Program Files\OpenCV2.3\build\x86\vc10\lib\opencv_legacy230d.lib" "F:\Program Files\OpenCV2.3\build\x86\vc10\lib\opencv_imgproc230d.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\SafeZoneNav.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\Users\Samuel\documents\visual studio 2010\Projects\SafeZoneNav\Debug\SafeZoneNav.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Users\Samuel\documents\visual studio 2010\Projects\SafeZoneNav\Debug\SafeZoneNav.lib" /MACHINE:X86 Debug\SafeZoneNav.exe.embed.manifest.res
+         Debug\SafeZoneNav.obj
+         Debug\stdafx.obj
+         Debug\tserial.obj
+       Manifest:
+         F:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\SafeZoneNav.exe.embed.manifest" /manifest Debug\SafeZoneNav.exe.intermediate.manifest
+         All outputs are up-to-date.
+       LinkEmbedManifest:
+         All outputs are up-to-date.
+         SafeZoneNav.vcxproj -> F:\Users\Samuel\documents\visual studio 2010\Projects\SafeZoneNav\Debug\SafeZoneNav.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\SafeZoneNav.unsuccessfulbuild".
+         Touching "Debug\SafeZoneNav.lastbuildstate".
+     1>Done Building Project "F:\Users\Samuel\documents\visual studio 2010\Projects\SafeZoneNav\SafeZoneNav\SafeZoneNav.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.81

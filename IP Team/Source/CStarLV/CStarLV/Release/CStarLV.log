@@ -1,0 +1,62 @@
+﻿Build started 1/26/2012 10:46:19 AM.
+     1>Project "F:\Users\Samuel\Documents\Visual Studio 2010\Projects\CStarLV\CStarLV\CStarLV.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\CStarLV.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         F:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"F:\Program Files\OpenCV2.3\build\include" /I"F:\Program Files\OpenCV2.3\build\include\opencv" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\CStarLV.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt CStarLV.cpp
+         CStarLV.cpp
+     1>F:\Program Files\OpenCV2.3\build\include\opencv2/flann/logger.h(70): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>CStarLV.cpp(87): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>CStarLV.cpp(87): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>CStarLV.cpp(87): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>CStarLV.cpp(87): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>CStarLV.cpp(126): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>CStarLV.cpp(127): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>CStarLV.cpp(127): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>CStarLV.cpp(182): warning C4101: 'R' : unreferenced local variable
+     1>CStarLV.cpp(303): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>CStarLV.cpp(307): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : see declaration of 'fscanf'
+     1>CStarLV.cpp(308): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : see declaration of 'fscanf'
+     1>CStarLV.cpp(309): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : see declaration of 'fscanf'
+     1>CStarLV.cpp(310): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : see declaration of 'fscanf'
+     1>CStarLV.cpp(369): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>CStarLV.cpp(370): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>CStarLV.cpp(371): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>CStarLV.cpp(372): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>CStarLV.cpp(373): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>CStarLV.cpp(374): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>CStarLV.cpp(375): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>CStarLV.cpp(376): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>CStarLV.cpp(492): warning C4244: '/=' : conversion from 'double' to 'int', possible loss of data
+     1>CStarLV.cpp(492): warning C4244: '/=' : conversion from 'double' to 'int', possible loss of data
+     1>CStarLV.cpp(493): warning C4244: '/=' : conversion from 'double' to 'int', possible loss of data
+     1>CStarLV.cpp(493): warning C4244: '/=' : conversion from 'double' to 'int', possible loss of data
+     1>CStarLV.cpp(496): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>CStarLV.cpp(497): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>CStarLV.cpp(499): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>CStarLV.cpp(441): warning C4101: 'lengthSqd' : unreferenced local variable
+       Link:
+         F:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Users\Samuel\Documents\Visual Studio 2010\Projects\CStarLV\Release\CStarLV.exe" /INCREMENTAL:NO /NOLOGO "F:\Program Files\OpenCV2.3\build\x86\vc10\lib\opencv_core230d.lib" "F:\Program Files\OpenCV2.3\build\x86\vc10\lib\opencv_highgui230d.lib" "F:\Program Files\OpenCV2.3\build\x86\vc10\lib\opencv_video230d.lib" "F:\Program Files\OpenCV2.3\build\x86\vc10\lib\opencv_ml230d.lib" "F:\Program Files\OpenCV2.3\build\x86\vc10\lib\opencv_legacy230d.lib" "F:\Program Files\OpenCV2.3\build\x86\vc10\lib\opencv_imgproc230d.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\CStarLV.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\Users\Samuel\Documents\Visual Studio 2010\Projects\CStarLV\Release\CStarLV.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Users\Samuel\Documents\Visual Studio 2010\Projects\CStarLV\Release\CStarLV.lib" /MACHINE:X86 Release\CStarLV.obj
+         Release\stdafx.obj
+         Release\tserial.obj
+         Generating code
+     1>f:\users\samuel\documents\visual studio 2010\projects\cstarlv\cstarlv\cstarlv.cpp(146): warning C4715: 'search' : not all control paths return a value
+         Finished generating code
+         CStarLV.vcxproj -> F:\Users\Samuel\Documents\Visual Studio 2010\Projects\CStarLV\Release\CStarLV.exe
+       Manifest:
+         F:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"F:\Users\Samuel\Documents\Visual Studio 2010\Projects\CStarLV\Release\CStarLV.exe;#1" /manifest Release\CStarLV.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\CStarLV.unsuccessfulbuild".
+         Touching "Release\CStarLV.lastbuildstate".
+     1>Done Building Project "F:\Users\Samuel\Documents\Visual Studio 2010\Projects\CStarLV\CStarLV\CStarLV.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.12

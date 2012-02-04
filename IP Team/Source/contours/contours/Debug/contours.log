@@ -1,0 +1,34 @@
+﻿Build started 2/2/2012 10:26:23 PM.
+     1>Project "F:\Users\Samuel\Documents\Visual Studio 2010\Projects\contours\contours\contours.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\contours.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         F:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\contours.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt contours.cpp
+         contours.cpp
+     1>f:\users\samuel\documents\visual studio 2010\projects\contours\contours\contours.cpp(48): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>f:\users\samuel\documents\visual studio 2010\projects\contours\contours\contours.cpp(109): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>f:\users\samuel\documents\visual studio 2010\projects\contours\contours\contours.cpp(110): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\program files\microsoft visual studio 10.0\vc\include\stdio.h(253) : see declaration of 'fscanf'
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         F:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Users\Samuel\Documents\Visual Studio 2010\Projects\contours\Debug\contours.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\contours.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\Users\Samuel\Documents\Visual Studio 2010\Projects\contours\Debug\contours.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Users\Samuel\Documents\Visual Studio 2010\Projects\contours\Debug\contours.lib" /MACHINE:X86 Debug\contours.exe.embed.manifest.res
+         Debug\contours.obj
+         Debug\stdafx.obj
+       Manifest:
+         F:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\contours.exe.embed.manifest" /manifest Debug\contours.exe.intermediate.manifest
+         All outputs are up-to-date.
+       LinkEmbedManifest:
+         All outputs are up-to-date.
+         contours.vcxproj -> F:\Users\Samuel\Documents\Visual Studio 2010\Projects\contours\Debug\contours.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\contours.unsuccessfulbuild".
+         Touching "Debug\contours.lastbuildstate".
+     1>Done Building Project "F:\Users\Samuel\Documents\Visual Studio 2010\Projects\contours\contours\contours.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.08
