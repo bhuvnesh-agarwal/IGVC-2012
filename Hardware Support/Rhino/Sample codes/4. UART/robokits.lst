@@ -1,0 +1,219 @@
+   1               		.file	"robokits.c"
+   2               	__SREG__ = 0x3f
+   3               	__SP_H__ = 0x3e
+   4               	__SP_L__ = 0x3d
+   5               	__CCP__  = 0x34
+   6               	__tmp_reg__ = 0
+   7               	__zero_reg__ = 1
+  15               	.Ltext0:
+  16               	.global	main
+  18               	main:
+  19               	.LFB7:
+  20               	.LM1:
+  21 0000 DF92      		push r13
+  22 0002 EF92      		push r14
+  23 0004 FF92      		push r15
+  24 0006 0F93      		push r16
+  25 0008 1F93      		push r17
+  26 000a CF93      		push r28
+  27 000c DF93      		push r29
+  28               	/* prologue: function */
+  29               	/* frame size = 0 */
+  30               	.LM2:
+  31 000e A69A      		sbi 52-32,6
+  32               	.LM3:
+  33 0010 A79A      		sbi 52-32,7
+  34               	.LM4:
+  35 0012 969A      		sbi 50-32,6
+  36               	.LM5:
+  37               	/* #APP */
+  38               	 ;  16 "robokits.c" 1
+  39 0014 7894      		sei
+  40               	 ;  0 "" 2
+  41               	.LM6:
+  42               	/* #NOAPP */
+  43 0016 60E8      		ldi r22,lo8(9600)
+  44 0018 75E2      		ldi r23,hi8(9600)
+  45 001a 80E0      		ldi r24,hlo8(9600)
+  46 001c 90E0      		ldi r25,hhi8(9600)
+  47 001e 0E94 0000 		call UART_INIT
+  48               	.LM7:
+  49 0022 81EA      		ldi r24,lo8(-95)
+  50 0024 8FBD      		out 79-32,r24
+  51               	.LM8:
+  52 0026 8AE0      		ldi r24,lo8(10)
+  53 0028 8EBD      		out 78-32,r24
+  54               	.LM9:
+  55 002a 1BBC      		out (74)+1-32,__zero_reg__
+  56 002c 1ABC      		out 74-32,__zero_reg__
+  57               	.LM10:
+  58 002e 19BC      		out (72)+1-32,__zero_reg__
+  59 0030 18BC      		out 72-32,__zero_reg__
+  60               	.LM11:
+  61 0032 AA9A      		sbi 53-32,2
+  62               	.LM12:
+  63 0034 AB9A      		sbi 53-32,3
+  64               	.LM13:
+  65 0036 8C9A      		sbi 49-32,4
+  66               	.LM14:
+  67 0038 8D9A      		sbi 49-32,5
+  68               	.LM15:
+  69 003a A29A      		sbi 52-32,2
+  70               	.LM16:
+  71 003c A39A      		sbi 52-32,3
+  72 003e 80E0      		ldi r24,lo8(0)
+  73               	.LVL0:
+  74               	.LM17:
+  75 0040 3AE0      		ldi r19,lo8(10)
+  76 0042 D32E      		mov r13,r19
+  77 0044 C4E6      		ldi r28,lo8(100)
+  78 0046 D0E0      		ldi r29,hi8(100)
+  79 0048 00C0      		rjmp .L13
+  80               	.LVL1:
+  81               	.L3:
+  82               	.LM18:
+  83 004a 0E94 0000 		call UART_GETCHAR
+  84               	.LVL2:
+  85               	.L13:
+  86               	.LM19:
+  87 004e 8737      		cpi r24,lo8(119)
+  88 0050 01F4      		brne .L3
+  89               	.LM20:
+  90 0052 0E94 0000 		call UART_PUTCHAR
+  91               	.LVL3:
+  92 0056 80E0      		ldi r24,lo8(0)
+  93               	.LVL4:
+  94 0058 00C0      		rjmp .L4
+  95               	.LVL5:
+  96               	.L5:
+  97               	.LM21:
+  98 005a 0E94 0000 		call UART_GETCHAR
+  99               	.LVL6:
+ 100               	.L4:
+ 101               	.LM22:
+ 102 005e 20ED      		ldi r18,lo8(-48)
+ 103 0060 E22E      		mov r14,r18
+ 104 0062 E80E      		add r14,r24
+ 105 0064 99E0      		ldi r25,lo8(9)
+ 106 0066 9E15      		cp r25,r14
+ 107 0068 00F0      		brlo .L5
+ 108               	.LM23:
+ 109 006a 0E94 0000 		call UART_PUTCHAR
+ 110 006e 80E0      		ldi r24,lo8(0)
+ 111               	.LVL7:
+ 112 0070 00C0      		rjmp .L6
+ 113               	.LVL8:
+ 114               	.L7:
+ 115               	.LM24:
+ 116 0072 0E94 0000 		call UART_GETCHAR
+ 117               	.LVL9:
+ 118               	.L6:
+ 119               	.LM25:
+ 120 0076 082F      		mov r16,r24
+ 121 0078 0053      		subi r16,lo8(-(-48))
+ 122 007a 0A30      		cpi r16,lo8(10)
+ 123 007c 00F4      		brsh .L7
+ 124               	.LM26:
+ 125 007e 0E94 0000 		call UART_PUTCHAR
+ 126 0082 80E0      		ldi r24,lo8(0)
+ 127               	.LVL10:
+ 128 0084 00C0      		rjmp .L8
+ 129               	.LVL11:
+ 130               	.L9:
+ 131               	.LM27:
+ 132 0086 0E94 0000 		call UART_GETCHAR
+ 133               	.LVL12:
+ 134               	.L8:
+ 135               	.LM28:
+ 136 008a 90ED      		ldi r25,lo8(-48)
+ 137 008c F92E      		mov r15,r25
+ 138 008e F80E      		add r15,r24
+ 139 0090 99E0      		ldi r25,lo8(9)
+ 140 0092 9F15      		cp r25,r15
+ 141 0094 00F0      		brlo .L9
+ 142               	.LM29:
+ 143 0096 0E94 0000 		call UART_PUTCHAR
+ 144 009a 80E0      		ldi r24,lo8(0)
+ 145               	.LVL13:
+ 146 009c 00C0      		rjmp .L10
+ 147               	.LVL14:
+ 148               	.L11:
+ 149               	.LM30:
+ 150 009e 0E94 0000 		call UART_GETCHAR
+ 151               	.LVL15:
+ 152               	.L10:
+ 153               	.LM31:
+ 154 00a2 182F      		mov r17,r24
+ 155 00a4 1053      		subi r17,lo8(-(-48))
+ 156 00a6 1A30      		cpi r17,lo8(10)
+ 157 00a8 00F4      		brsh .L11
+ 158               	.LM32:
+ 159 00aa 0E94 0000 		call UART_PUTCHAR
+ 160               	.LM33:
+ 161 00ae AA98      		cbi 53-32,2
+ 162               	.LM34:
+ 163 00b0 AB98      		cbi 53-32,3
+ 164               	.LM35:
+ 165 00b2 ED9C      		mul r14,r13
+ 166 00b4 C001      		movw r24,r0
+ 167 00b6 1124      		clr r1
+ 168 00b8 BE01      		movw r22,r28
+ 169 00ba 681B      		sub r22,r24
+ 170 00bc 790B      		sbc r23,r25
+ 171 00be 601B      		sub r22,r16
+ 172 00c0 7109      		sbc r23,__zero_reg__
+ 173 00c2 8827      		clr r24
+ 174 00c4 77FD      		sbrc r23,7
+ 175 00c6 8095      		com r24
+ 176 00c8 982F      		mov r25,r24
+ 177 00ca 0E94 0000 		call __floatsisf
+ 178 00ce 2AE0      		ldi r18,lo8(0x3fa3d70a)
+ 179 00d0 37ED      		ldi r19,hi8(0x3fa3d70a)
+ 180 00d2 43EA      		ldi r20,hlo8(0x3fa3d70a)
+ 181 00d4 5FE3      		ldi r21,hhi8(0x3fa3d70a)
+ 182 00d6 0E94 0000 		call __mulsf3
+ 183 00da 0E94 0000 		call __fixunssfsi
+ 184 00de 7BBD      		out (74)+1-32,r23
+ 185 00e0 6ABD      		out 74-32,r22
+ 186               	.LM36:
+ 187 00e2 FD9C      		mul r15,r13
+ 188 00e4 C001      		movw r24,r0
+ 189 00e6 1124      		clr r1
+ 190 00e8 BE01      		movw r22,r28
+ 191 00ea 681B      		sub r22,r24
+ 192 00ec 790B      		sbc r23,r25
+ 193 00ee 611B      		sub r22,r17
+ 194 00f0 7109      		sbc r23,__zero_reg__
+ 195 00f2 8827      		clr r24
+ 196 00f4 77FD      		sbrc r23,7
+ 197 00f6 8095      		com r24
+ 198 00f8 982F      		mov r25,r24
+ 199 00fa 0E94 0000 		call __floatsisf
+ 200 00fe 2AE0      		ldi r18,lo8(0x3fa3d70a)
+ 201 0100 37ED      		ldi r19,hi8(0x3fa3d70a)
+ 202 0102 43EA      		ldi r20,hlo8(0x3fa3d70a)
+ 203 0104 5FE3      		ldi r21,hhi8(0x3fa3d70a)
+ 204 0106 0E94 0000 		call __mulsf3
+ 205 010a 0E94 0000 		call __fixunssfsi
+ 206 010e 79BD      		out (72)+1-32,r23
+ 207 0110 68BD      		out 72-32,r22
+ 208 0112 00C0      		rjmp .L3
+ 209               	.LFE7:
+ 235               	.Letext0:
+DEFINED SYMBOLS
+                            *ABS*:00000000 robokits.c
+F:\Users\Samuel\AppData\Local\Temp/cc0pBm4s.s:2      *ABS*:0000003f __SREG__
+F:\Users\Samuel\AppData\Local\Temp/cc0pBm4s.s:3      *ABS*:0000003e __SP_H__
+F:\Users\Samuel\AppData\Local\Temp/cc0pBm4s.s:4      *ABS*:0000003d __SP_L__
+F:\Users\Samuel\AppData\Local\Temp/cc0pBm4s.s:5      *ABS*:00000034 __CCP__
+F:\Users\Samuel\AppData\Local\Temp/cc0pBm4s.s:6      *ABS*:00000000 __tmp_reg__
+F:\Users\Samuel\AppData\Local\Temp/cc0pBm4s.s:7      *ABS*:00000001 __zero_reg__
+F:\Users\Samuel\AppData\Local\Temp/cc0pBm4s.s:18     .text:00000000 main
+
+UNDEFINED SYMBOLS
+UART_INIT
+UART_GETCHAR
+UART_PUTCHAR
+__floatsisf
+__mulsf3
+__fixunssfsi

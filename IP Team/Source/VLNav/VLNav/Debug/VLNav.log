@@ -1,87 +1,104 @@
-﻿Build started 2/4/2012 4:40:46 PM.
-     1>Project "F:\Users\Samuel\Documents\Visual Studio 2010\Projects\VLNav\VLNav\VLNav.vcxproj" on node 2 (build target(s)).
-     1>InitializeBuildStatus:
-         Creating "Debug\VLNav.unsuccessfulbuild" because "AlwaysCreate" was specified.
+﻿Build started 2/4/2012 10:59:48 PM.
+     1>Project "F:\Users\Samuel\Documents\Visual Studio 2010\AGV\IGVC-2012\IP Team\Source\VLNav\VLNav\VLNav.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\VLNav.lastbuildstate".
+       InitializeBuildStatus:
+         Touching "Debug\VLNav.unsuccessfulbuild".
        ClCompile:
-         All outputs are up-to-date.
-         F:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"F:\Program Files\OpenCV2.3\build\include" /I"F:\Program Files\OpenCV2.3\build\include\opencv" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\VLNav.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt VLNav.cpp
+         F:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"F:\Program Files\OpenCV2.3\build\include" /I"F:\Program Files\OpenCV2.3\build\include\opencv" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\VLNav.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         F:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"F:\Program Files\OpenCV2.3\build\include" /I"F:\Program Files\OpenCV2.3\build\include\opencv" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\VLNav.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt tserial.cpp VLNav.cpp
          VLNav.cpp
      1>f:\program files\opencv2.3\build\include\opencv2\flann\logger.h(70): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  f:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
-     1>f:\users\samuel\documents\visual studio 2010\projects\vlnav\vlnav\vlnav.cpp(87): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
-     1>f:\users\samuel\documents\visual studio 2010\projects\vlnav\vlnav\vlnav.cpp(158): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
-     1>f:\users\samuel\documents\visual studio 2010\projects\vlnav\vlnav\vlnav.cpp(158): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
-     1>f:\users\samuel\documents\visual studio 2010\projects\vlnav\vlnav\vlnav.cpp(158): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
-     1>f:\users\samuel\documents\visual studio 2010\projects\vlnav\vlnav\vlnav.cpp(158): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
-     1>f:\users\samuel\documents\visual studio 2010\projects\vlnav\vlnav\vlnav.cpp(198): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
-     1>f:\users\samuel\documents\visual studio 2010\projects\vlnav\vlnav\vlnav.cpp(199): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
-     1>f:\users\samuel\documents\visual studio 2010\projects\vlnav\vlnav\vlnav.cpp(199): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
-     1>f:\users\samuel\documents\visual studio 2010\projects\vlnav\vlnav\vlnav.cpp(295): warning C4101: 'R' : unreferenced local variable
-     1>f:\users\samuel\documents\visual studio 2010\projects\vlnav\vlnav\vlnav.cpp(427): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>f:\users\samuel\documents\visual studio 2010\agv\igvc-2012\ip team\source\vlnav\vlnav\vlnav.cpp(87): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>f:\users\samuel\documents\visual studio 2010\agv\igvc-2012\ip team\source\vlnav\vlnav\vlnav.cpp(158): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>f:\users\samuel\documents\visual studio 2010\agv\igvc-2012\ip team\source\vlnav\vlnav\vlnav.cpp(158): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>f:\users\samuel\documents\visual studio 2010\agv\igvc-2012\ip team\source\vlnav\vlnav\vlnav.cpp(158): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>f:\users\samuel\documents\visual studio 2010\agv\igvc-2012\ip team\source\vlnav\vlnav\vlnav.cpp(158): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>f:\users\samuel\documents\visual studio 2010\agv\igvc-2012\ip team\source\vlnav\vlnav\vlnav.cpp(198): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>f:\users\samuel\documents\visual studio 2010\agv\igvc-2012\ip team\source\vlnav\vlnav\vlnav.cpp(199): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>f:\users\samuel\documents\visual studio 2010\agv\igvc-2012\ip team\source\vlnav\vlnav\vlnav.cpp(199): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>f:\users\samuel\documents\visual studio 2010\agv\igvc-2012\ip team\source\vlnav\vlnav\vlnav.cpp(295): warning C4101: 'R' : unreferenced local variable
+     1>f:\users\samuel\documents\visual studio 2010\agv\igvc-2012\ip team\source\vlnav\vlnav\vlnav.cpp(427): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  f:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
-     1>f:\users\samuel\documents\visual studio 2010\projects\vlnav\vlnav\vlnav.cpp(431): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>f:\users\samuel\documents\visual studio 2010\agv\igvc-2012\ip team\source\vlnav\vlnav\vlnav.cpp(431): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  f:\program files\microsoft visual studio 10.0\vc\include\stdio.h(253) : see declaration of 'fscanf'
-     1>f:\users\samuel\documents\visual studio 2010\projects\vlnav\vlnav\vlnav.cpp(432): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>f:\users\samuel\documents\visual studio 2010\agv\igvc-2012\ip team\source\vlnav\vlnav\vlnav.cpp(432): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  f:\program files\microsoft visual studio 10.0\vc\include\stdio.h(253) : see declaration of 'fscanf'
-     1>f:\users\samuel\documents\visual studio 2010\projects\vlnav\vlnav\vlnav.cpp(433): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>f:\users\samuel\documents\visual studio 2010\agv\igvc-2012\ip team\source\vlnav\vlnav\vlnav.cpp(433): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  f:\program files\microsoft visual studio 10.0\vc\include\stdio.h(253) : see declaration of 'fscanf'
-     1>f:\users\samuel\documents\visual studio 2010\projects\vlnav\vlnav\vlnav.cpp(434): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>f:\users\samuel\documents\visual studio 2010\agv\igvc-2012\ip team\source\vlnav\vlnav\vlnav.cpp(434): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  f:\program files\microsoft visual studio 10.0\vc\include\stdio.h(253) : see declaration of 'fscanf'
-     1>f:\users\samuel\documents\visual studio 2010\projects\vlnav\vlnav\vlnav.cpp(527): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
-     1>f:\users\samuel\documents\visual studio 2010\projects\vlnav\vlnav\vlnav.cpp(528): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
-     1>f:\users\samuel\documents\visual studio 2010\projects\vlnav\vlnav\vlnav.cpp(529): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
-     1>f:\users\samuel\documents\visual studio 2010\projects\vlnav\vlnav\vlnav.cpp(530): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
-     1>f:\users\samuel\documents\visual studio 2010\projects\vlnav\vlnav\vlnav.cpp(531): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
-     1>f:\users\samuel\documents\visual studio 2010\projects\vlnav\vlnav\vlnav.cpp(532): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
-     1>f:\users\samuel\documents\visual studio 2010\projects\vlnav\vlnav\vlnav.cpp(533): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
-     1>f:\users\samuel\documents\visual studio 2010\projects\vlnav\vlnav\vlnav.cpp(534): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
-     1>f:\users\samuel\documents\visual studio 2010\projects\vlnav\vlnav\vlnav.cpp(565): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>f:\users\samuel\documents\visual studio 2010\agv\igvc-2012\ip team\source\vlnav\vlnav\vlnav.cpp(527): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>f:\users\samuel\documents\visual studio 2010\agv\igvc-2012\ip team\source\vlnav\vlnav\vlnav.cpp(528): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>f:\users\samuel\documents\visual studio 2010\agv\igvc-2012\ip team\source\vlnav\vlnav\vlnav.cpp(529): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>f:\users\samuel\documents\visual studio 2010\agv\igvc-2012\ip team\source\vlnav\vlnav\vlnav.cpp(530): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>f:\users\samuel\documents\visual studio 2010\agv\igvc-2012\ip team\source\vlnav\vlnav\vlnav.cpp(531): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>f:\users\samuel\documents\visual studio 2010\agv\igvc-2012\ip team\source\vlnav\vlnav\vlnav.cpp(532): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>f:\users\samuel\documents\visual studio 2010\agv\igvc-2012\ip team\source\vlnav\vlnav\vlnav.cpp(533): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>f:\users\samuel\documents\visual studio 2010\agv\igvc-2012\ip team\source\vlnav\vlnav\vlnav.cpp(534): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>f:\users\samuel\documents\visual studio 2010\agv\igvc-2012\ip team\source\vlnav\vlnav\vlnav.cpp(565): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  f:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
-     1>f:\users\samuel\documents\visual studio 2010\projects\vlnav\vlnav\vlnav.cpp(566): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>f:\users\samuel\documents\visual studio 2010\agv\igvc-2012\ip team\source\vlnav\vlnav\vlnav.cpp(566): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  f:\program files\microsoft visual studio 10.0\vc\include\stdio.h(253) : see declaration of 'fscanf'
-     1>f:\users\samuel\documents\visual studio 2010\projects\vlnav\vlnav\vlnav.cpp(682): warning C4244: '/=' : conversion from 'double' to 'int', possible loss of data
-     1>f:\users\samuel\documents\visual studio 2010\projects\vlnav\vlnav\vlnav.cpp(682): warning C4244: '/=' : conversion from 'double' to 'int', possible loss of data
-     1>f:\users\samuel\documents\visual studio 2010\projects\vlnav\vlnav\vlnav.cpp(683): warning C4244: '/=' : conversion from 'double' to 'int', possible loss of data
-     1>f:\users\samuel\documents\visual studio 2010\projects\vlnav\vlnav\vlnav.cpp(683): warning C4244: '/=' : conversion from 'double' to 'int', possible loss of data
-     1>f:\users\samuel\documents\visual studio 2010\projects\vlnav\vlnav\vlnav.cpp(691): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
-     1>f:\users\samuel\documents\visual studio 2010\projects\vlnav\vlnav\vlnav.cpp(692): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
-     1>f:\users\samuel\documents\visual studio 2010\projects\vlnav\vlnav\vlnav.cpp(696): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
-     1>f:\users\samuel\documents\visual studio 2010\projects\vlnav\vlnav\vlnav.cpp(831): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
-     1>f:\users\samuel\documents\visual studio 2010\projects\vlnav\vlnav\vlnav.cpp(831): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
-     1>f:\users\samuel\documents\visual studio 2010\projects\vlnav\vlnav\vlnav.cpp(832): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
-     1>f:\users\samuel\documents\visual studio 2010\projects\vlnav\vlnav\vlnav.cpp(832): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
-     1>f:\users\samuel\documents\visual studio 2010\projects\vlnav\vlnav\vlnav.cpp(835): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
-     1>f:\users\samuel\documents\visual studio 2010\projects\vlnav\vlnav\vlnav.cpp(835): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
-     1>f:\users\samuel\documents\visual studio 2010\projects\vlnav\vlnav\vlnav.cpp(836): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
-     1>f:\users\samuel\documents\visual studio 2010\projects\vlnav\vlnav\vlnav.cpp(836): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
-     1>f:\users\samuel\documents\visual studio 2010\projects\vlnav\vlnav\vlnav.cpp(840): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
-     1>f:\users\samuel\documents\visual studio 2010\projects\vlnav\vlnav\vlnav.cpp(840): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
-     1>f:\users\samuel\documents\visual studio 2010\projects\vlnav\vlnav\vlnav.cpp(841): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
-     1>f:\users\samuel\documents\visual studio 2010\projects\vlnav\vlnav\vlnav.cpp(841): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
-     1>f:\users\samuel\documents\visual studio 2010\projects\vlnav\vlnav\vlnav.cpp(854): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
-     1>f:\users\samuel\documents\visual studio 2010\projects\vlnav\vlnav\vlnav.cpp(854): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
-     1>f:\users\samuel\documents\visual studio 2010\projects\vlnav\vlnav\vlnav.cpp(855): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
-     1>f:\users\samuel\documents\visual studio 2010\projects\vlnav\vlnav\vlnav.cpp(855): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
-     1>f:\users\samuel\documents\visual studio 2010\projects\vlnav\vlnav\vlnav.cpp(619): warning C4101: 'lengthSqd' : unreferenced local variable
-     1>f:\users\samuel\documents\visual studio 2010\projects\vlnav\vlnav\vlnav.cpp(258): warning C4715: 'searchforcoor' : not all control paths return a value
+     1>f:\users\samuel\documents\visual studio 2010\agv\igvc-2012\ip team\source\vlnav\vlnav\vlnav.cpp(682): warning C4244: '/=' : conversion from 'double' to 'int', possible loss of data
+     1>f:\users\samuel\documents\visual studio 2010\agv\igvc-2012\ip team\source\vlnav\vlnav\vlnav.cpp(682): warning C4244: '/=' : conversion from 'double' to 'int', possible loss of data
+     1>f:\users\samuel\documents\visual studio 2010\agv\igvc-2012\ip team\source\vlnav\vlnav\vlnav.cpp(683): warning C4244: '/=' : conversion from 'double' to 'int', possible loss of data
+     1>f:\users\samuel\documents\visual studio 2010\agv\igvc-2012\ip team\source\vlnav\vlnav\vlnav.cpp(683): warning C4244: '/=' : conversion from 'double' to 'int', possible loss of data
+     1>f:\users\samuel\documents\visual studio 2010\agv\igvc-2012\ip team\source\vlnav\vlnav\vlnav.cpp(691): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>f:\users\samuel\documents\visual studio 2010\agv\igvc-2012\ip team\source\vlnav\vlnav\vlnav.cpp(692): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>f:\users\samuel\documents\visual studio 2010\agv\igvc-2012\ip team\source\vlnav\vlnav\vlnav.cpp(696): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>f:\users\samuel\documents\visual studio 2010\agv\igvc-2012\ip team\source\vlnav\vlnav\vlnav.cpp(831): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>f:\users\samuel\documents\visual studio 2010\agv\igvc-2012\ip team\source\vlnav\vlnav\vlnav.cpp(831): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>f:\users\samuel\documents\visual studio 2010\agv\igvc-2012\ip team\source\vlnav\vlnav\vlnav.cpp(832): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>f:\users\samuel\documents\visual studio 2010\agv\igvc-2012\ip team\source\vlnav\vlnav\vlnav.cpp(832): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>f:\users\samuel\documents\visual studio 2010\agv\igvc-2012\ip team\source\vlnav\vlnav\vlnav.cpp(835): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>f:\users\samuel\documents\visual studio 2010\agv\igvc-2012\ip team\source\vlnav\vlnav\vlnav.cpp(835): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>f:\users\samuel\documents\visual studio 2010\agv\igvc-2012\ip team\source\vlnav\vlnav\vlnav.cpp(836): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>f:\users\samuel\documents\visual studio 2010\agv\igvc-2012\ip team\source\vlnav\vlnav\vlnav.cpp(836): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>f:\users\samuel\documents\visual studio 2010\agv\igvc-2012\ip team\source\vlnav\vlnav\vlnav.cpp(840): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>f:\users\samuel\documents\visual studio 2010\agv\igvc-2012\ip team\source\vlnav\vlnav\vlnav.cpp(840): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>f:\users\samuel\documents\visual studio 2010\agv\igvc-2012\ip team\source\vlnav\vlnav\vlnav.cpp(841): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>f:\users\samuel\documents\visual studio 2010\agv\igvc-2012\ip team\source\vlnav\vlnav\vlnav.cpp(841): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>f:\users\samuel\documents\visual studio 2010\agv\igvc-2012\ip team\source\vlnav\vlnav\vlnav.cpp(854): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>f:\users\samuel\documents\visual studio 2010\agv\igvc-2012\ip team\source\vlnav\vlnav\vlnav.cpp(854): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>f:\users\samuel\documents\visual studio 2010\agv\igvc-2012\ip team\source\vlnav\vlnav\vlnav.cpp(855): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>f:\users\samuel\documents\visual studio 2010\agv\igvc-2012\ip team\source\vlnav\vlnav\vlnav.cpp(855): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>f:\users\samuel\documents\visual studio 2010\agv\igvc-2012\ip team\source\vlnav\vlnav\vlnav.cpp(619): warning C4101: 'lengthSqd' : unreferenced local variable
+         tserial.cpp
+     1>f:\users\samuel\documents\visual studio 2010\agv\igvc-2012\ip team\source\vlnav\vlnav\tserial.cpp(100): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\program files\microsoft visual studio 10.0\vc\include\stdio.h(325) : see declaration of 'sscanf'
+     1>f:\users\samuel\documents\visual studio 2010\agv\igvc-2012\ip team\source\vlnav\vlnav\tserial.cpp(103): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\program files\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>f:\users\samuel\documents\visual studio 2010\agv\igvc-2012\ip team\source\vlnav\vlnav\tserial.cpp(104): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\program files\microsoft visual studio 10.0\vc\include\string.h(188) : see declaration of 'strncpy'
+     1>f:\users\samuel\documents\visual studio 2010\agv\igvc-2012\ip team\source\vlnav\vlnav\tserial.cpp(107): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\program files\microsoft visual studio 10.0\vc\include\string.h(188) : see declaration of 'strncpy'
+         Generating Code...
+     1>f:\users\samuel\documents\visual studio 2010\agv\igvc-2012\ip team\source\vlnav\vlnav\vlnav.cpp(258): warning C4715: 'searchforcoor' : not all control paths return a value
        ManifestResourceCompile:
-         All outputs are up-to-date.
+         F:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\VLNav.exe.embed.manifest.res" Debug\VLNav_manifest.rc 
        Link:
-         F:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Users\Samuel\Documents\Visual Studio 2010\Projects\VLNav\Debug\VLNav.exe" /INCREMENTAL /NOLOGO "F:\Program Files\OpenCV2.3\build\x86\vc10\lib\opencv_core230d.lib" "F:\Program Files\OpenCV2.3\build\x86\vc10\lib\opencv_highgui230d.lib" "F:\Program Files\OpenCV2.3\build\x86\vc10\lib\opencv_video230d.lib" "F:\Program Files\OpenCV2.3\build\x86\vc10\lib\opencv_ml230d.lib" "F:\Program Files\OpenCV2.3\build\x86\vc10\lib\opencv_legacy230d.lib" "F:\Program Files\OpenCV2.3\build\x86\vc10\lib\opencv_imgproc230d.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\VLNav.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\Users\Samuel\Documents\Visual Studio 2010\Projects\VLNav\Debug\VLNav.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Users\Samuel\Documents\Visual Studio 2010\Projects\VLNav\Debug\VLNav.lib" /MACHINE:X86 Debug\VLNav.exe.embed.manifest.res
+         F:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Users\Samuel\Documents\Visual Studio 2010\AGV\IGVC-2012\IP Team\Source\VLNav\Debug\VLNav.exe" /INCREMENTAL /NOLOGO "F:\Program Files\OpenCV2.3\build\x86\vc10\lib\opencv_core230d.lib" "F:\Program Files\OpenCV2.3\build\x86\vc10\lib\opencv_highgui230d.lib" "F:\Program Files\OpenCV2.3\build\x86\vc10\lib\opencv_video230d.lib" "F:\Program Files\OpenCV2.3\build\x86\vc10\lib\opencv_ml230d.lib" "F:\Program Files\OpenCV2.3\build\x86\vc10\lib\opencv_legacy230d.lib" "F:\Program Files\OpenCV2.3\build\x86\vc10\lib\opencv_imgproc230d.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\VLNav.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\Users\Samuel\Documents\Visual Studio 2010\AGV\IGVC-2012\IP Team\Source\VLNav\Debug\VLNav.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Users\Samuel\Documents\Visual Studio 2010\AGV\IGVC-2012\IP Team\Source\VLNav\Debug\VLNav.lib" /MACHINE:X86 Debug\VLNav.exe.embed.manifest.res
          Debug\stdafx.obj
          Debug\tserial.obj
          Debug\VLNav.obj
        Manifest:
+         Deleting file "Debug\VLNav.exe.embed.manifest".
          F:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\VLNav.exe.embed.manifest" /manifest Debug\VLNav.exe.intermediate.manifest
-         All outputs are up-to-date.
+         F:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\VLNav.exe.embed.manifest.res" Debug\VLNav_manifest.rc 
        LinkEmbedManifest:
-         All outputs are up-to-date.
-         VLNav.vcxproj -> F:\Users\Samuel\Documents\Visual Studio 2010\Projects\VLNav\Debug\VLNav.exe
+         F:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Users\Samuel\Documents\Visual Studio 2010\AGV\IGVC-2012\IP Team\Source\VLNav\Debug\VLNav.exe" /INCREMENTAL /NOLOGO "F:\Program Files\OpenCV2.3\build\x86\vc10\lib\opencv_core230d.lib" "F:\Program Files\OpenCV2.3\build\x86\vc10\lib\opencv_highgui230d.lib" "F:\Program Files\OpenCV2.3\build\x86\vc10\lib\opencv_video230d.lib" "F:\Program Files\OpenCV2.3\build\x86\vc10\lib\opencv_ml230d.lib" "F:\Program Files\OpenCV2.3\build\x86\vc10\lib\opencv_legacy230d.lib" "F:\Program Files\OpenCV2.3\build\x86\vc10\lib\opencv_imgproc230d.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\VLNav.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\Users\Samuel\Documents\Visual Studio 2010\AGV\IGVC-2012\IP Team\Source\VLNav\Debug\VLNav.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Users\Samuel\Documents\Visual Studio 2010\AGV\IGVC-2012\IP Team\Source\VLNav\Debug\VLNav.lib" /MACHINE:X86 Debug\VLNav.exe.embed.manifest.res
+         Debug\stdafx.obj
+         Debug\tserial.obj
+         Debug\VLNav.obj
+         VLNav.vcxproj -> F:\Users\Samuel\Documents\Visual Studio 2010\AGV\IGVC-2012\IP Team\Source\VLNav\Debug\VLNav.exe
        FinalizeBuildStatus:
          Deleting file "Debug\VLNav.unsuccessfulbuild".
          Touching "Debug\VLNav.lastbuildstate".
-     1>Done Building Project "F:\Users\Samuel\Documents\Visual Studio 2010\Projects\VLNav\VLNav\VLNav.vcxproj" (build target(s)).
+     1>Done Building Project "F:\Users\Samuel\Documents\Visual Studio 2010\AGV\IGVC-2012\IP Team\Source\VLNav\VLNav\VLNav.vcxproj" (rebuild target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:02.72
+Time Elapsed 00:00:10.29

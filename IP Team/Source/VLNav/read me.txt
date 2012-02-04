@@ -1,0 +1,13 @@
+VLNav: Vector Linkage Navigation
+
+Uses the idea of A*. Instead of using the grid movements, it uses curves
+(called elementary paths). 
+At every point, it calculates the next possible points using the elementary
+curves.
+
+Uses basic IP. Mainly meant for path planning testing.
+
+Currently, tuning is being carried out in finding the right elementary 
+paths.
+
+Ref: A Star Spatial in References folder

@@ -1,0 +1,144 @@
+   1               		.file	"robokits.c"
+   2               	__SREG__ = 0x3f
+   3               	__SP_H__ = 0x3e
+   4               	__SP_L__ = 0x3d
+   5               	__CCP__  = 0x34
+   6               	__tmp_reg__ = 0
+   7               	__zero_reg__ = 1
+  15               	.Ltext0:
+  16               	.global	LED1ON
+  18               	LED1ON:
+  19               	.LFB7:
+  20               	.LM1:
+  21               	/* prologue: function */
+  22               	/* frame size = 0 */
+  23               	.LM2:
+  24 0000 AF9A      		sbi 53-32,7
+  25               	/* epilogue start */
+  26 0002 0895      		ret
+  27               	.LFE7:
+  29               	.global	forward
+  31               	forward:
+  32               	.LFB8:
+  33               	.LM3:
+  34               	.LVL0:
+  35               	/* prologue: function */
+  36               	/* frame size = 0 */
+  37               	.LM4:
+  38 0004 8053      		subi r24,lo8(-(-48))
+  39               	.LVL1:
+  40 0006 382F      		mov r19,r24
+  41 0008 330F      		lsl r19
+  42 000a 330F      		lsl r19
+  43 000c 330F      		lsl r19
+  44 000e 20E0      		ldi r18,lo8(0)
+  45 0010 3BBD      		out (74)+1-32,r19
+  46 0012 2ABD      		out 74-32,r18
+  47               	.LM5:
+  48 0014 6053      		subi r22,lo8(-(-48))
+  49               	.LVL2:
+  50 0016 962F      		mov r25,r22
+  51 0018 990F      		lsl r25
+  52 001a 990F      		lsl r25
+  53 001c 990F      		lsl r25
+  54 001e 80E0      		ldi r24,lo8(0)
+  55 0020 99BD      		out (72)+1-32,r25
+  56 0022 88BD      		out 72-32,r24
+  57               	.LM6:
+  58 0024 909A      		sbi 50-32,0
+  59               	.LM7:
+  60 0026 9198      		cbi 50-32,1
+  61               	.LM8:
+  62 0028 929A      		sbi 50-32,2
+  63               	.LM9:
+  64 002a 9398      		cbi 50-32,3
+  65               	/* epilogue start */
+  66               	.LM10:
+  67 002c 0895      		ret
+  68               	.LFE8:
+  70               		.data
+  71               	.LC0:
+  72 0000 0D0A 0A53 		.ascii	"\r\n\nS"
+  73 0004 616D 706C 		.string	"ample code made by Robokits India for RHINO robot control board."
+  73      6520 636F 
+  73      6465 206D 
+  73      6164 6520 
+  73      6279 2052 
+  74               	.LC1:
+  75 0045 0D0A 0A56 		.string	"\r\n\nVisit Us at WWW.ROBOKITS.CO.IN. "
+  75      6973 6974 
+  75      2055 7320 
+  75      6174 2057 
+  75      5757 2E52 
+  76               		.text
+  77               	.global	main
+  79               	main:
+  80               	.LFB9:
+  81               	.LM11:
+  82               	/* prologue: function */
+  83               	/* frame size = 0 */
+  84               	.LM12:
+  85 002e A69A      		sbi 52-32,6
+  86               	.LM13:
+  87 0030 A79A      		sbi 52-32,7
+  88               	.LM14:
+  89 0032 969A      		sbi 50-32,6
+  90               	.LM15:
+  91               	/* #APP */
+  92               	 ;  36 "robokits.c" 1
+  93 0034 7894      		sei
+  94               	 ;  0 "" 2
+  95               	.LM16:
+  96               	/* #NOAPP */
+  97 0036 60E8      		ldi r22,lo8(9600)
+  98 0038 75E2      		ldi r23,hi8(9600)
+  99 003a 80E0      		ldi r24,hlo8(9600)
+ 100 003c 90E0      		ldi r25,hhi8(9600)
+ 101 003e 0E94 0000 		call UART_INIT
+ 102               	.LBB4:
+ 103               	.LBB5:
+ 104               	.LM17:
+ 105 0042 AF9A      		sbi 53-32,7
+ 106               	.LBE5:
+ 107               	.LBE4:
+ 108               	.LM18:
+ 109 0044 80E0      		ldi r24,lo8(.LC0)
+ 110 0046 90E0      		ldi r25,hi8(.LC0)
+ 111 0048 0E94 0000 		call UART_PRINT
+ 112               	.LM19:
+ 113 004c 80E0      		ldi r24,lo8(.LC1)
+ 114 004e 90E0      		ldi r25,hi8(.LC1)
+ 115 0050 0E94 0000 		call UART_PRINT
+ 116               	.L10:
+ 117               	.LM20:
+ 118 0054 0E94 0000 		call UART_GETCHAR
+ 119               	.LM21:
+ 120 0058 8F3F      		cpi r24,255
+ 121 005a 9105      		cpc r25,__zero_reg__
+ 122               	.LVL3:
+ 123 005c 01F0      		breq .+2
+ 124 005e 04F4      		brge .L10
+ 125               	.LM22:
+ 126 0060 0E94 0000 		call UART_PUTCHAR
+ 127               	.LVL4:
+ 128 0064 00C0      		rjmp .L10
+ 129               	.LFE9:
+ 171               	.Letext0:
+DEFINED SYMBOLS
+                            *ABS*:00000000 robokits.c
+C:\DOCUME~1\user\LOCALS~1\Temp/ccI1WXUI.s:2      *ABS*:0000003f __SREG__
+C:\DOCUME~1\user\LOCALS~1\Temp/ccI1WXUI.s:3      *ABS*:0000003e __SP_H__
+C:\DOCUME~1\user\LOCALS~1\Temp/ccI1WXUI.s:4      *ABS*:0000003d __SP_L__
+C:\DOCUME~1\user\LOCALS~1\Temp/ccI1WXUI.s:5      *ABS*:00000034 __CCP__
+C:\DOCUME~1\user\LOCALS~1\Temp/ccI1WXUI.s:6      *ABS*:00000000 __tmp_reg__
+C:\DOCUME~1\user\LOCALS~1\Temp/ccI1WXUI.s:7      *ABS*:00000001 __zero_reg__
+C:\DOCUME~1\user\LOCALS~1\Temp/ccI1WXUI.s:18     .text:00000000 LED1ON
+C:\DOCUME~1\user\LOCALS~1\Temp/ccI1WXUI.s:31     .text:00000004 forward
+C:\DOCUME~1\user\LOCALS~1\Temp/ccI1WXUI.s:79     .text:0000002e main
+
+UNDEFINED SYMBOLS
+UART_INIT
+UART_PRINT
+UART_GETCHAR
+UART_PUTCHAR
+__do_copy_data

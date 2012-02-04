@@ -1,0 +1,7 @@
+at center, dl != dr -> what to do now?
+
+when there is single lane, navCommand is not getting called
+
+somebody, do something abt the shadows
+
+when path is not formed, navcommand is getting garbage values

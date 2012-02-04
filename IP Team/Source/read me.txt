@@ -1,0 +1,10 @@
+various important projects are commited here
+
+VLNav - the path planning code currently being tuned
+CStar - a basic point to point A star algo implemeted
+using circular curves instead of grids
+CStarLV - a light version of CStar
+GreenLane - an image processing algo for grassy lands like in IGVC
+GreenLaneLV - a light version of GreenLane
+SafeZoneNav - another path planning algo (old) based on concept of SafeZone
+contours - a project used to generate elementary paths to be used in VLNav
